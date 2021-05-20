@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'MuseoSansRounded100';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 100'), url('/fonts/MuseoSansRounded100.woff') format('woff');
+}
+*{
+    box-sizing: border-box;
+}
+.page-content{
+    font-family: 'MuseoSansRounded100';
+}
+.section{
+    background-image: url("../img/main-bg.png");
+    background-repeat:no-repeat ;
+    background-size: auto;
+    max-width: 800px;
+    height: 600px;
+    padding-top:75px;
+    margin:0px auto;
+}
+.container{
+    width: 685px;
+    margin:0px auto;
+}
+.product-detail{
+    background-color:#152335;
+    border-radius:10px;
+    box-shadow: -1px 0px 25px 9px rgba(0,0,0,0.4);
+}
+.product-detail__logo{
+    padding-top:24px;
+    padding-left:21px;
+    padding-bottom: 22px;
+}
+.product-detail__product-content-form{
+    display: flex;
+    width:600px ;
+    margin:0px auto;
+}
+.product-img{
+    margin-top:60px;
+}
+.product-detail__content-container{
+    width: 185px;
+    margin-left:80px;
+}
+.product-detail__info-container{
+    margin-bottom: 25px;
+}
+.product-detail__product-title{
+    font-size: 24px;
+    color:#e1e1e1;
+    font-weight: 100;
+    margin-bottom: 17px;
+}
+.product-detail__product-description{
+    font-size: 14px;
+    font-weight: 100;
+    color:#e1e1e1;
+    opacity: 54%;
+}
+.product-detail__rating{
+    margin-bottom: 25px;
+}
+.icon-star{
+    font-size: 12px;
+    color:#F9C819;
+
+}
+.product-detail__product-properties{
+    margin-bottom: 30px;
+}
+.properties{
+    color:#e1e1e1e1;
+    font-size: 14px;
+    font-weight: 100;
+    width: 70px;
+    height: 30px;
+    background-color:#152335;
+    border:1px solid #4f5560;
+}
+.product-detail__add-to-bag-button{
+    width: 185px;
+    text-align: center;
+    height: 38px; 
+    background-color:#2A3545;
+    border:1px solid #616873;
+    margin:0px auto;
+    margin-bottom: 30px;
+}
+.add-to-bag-button{
+    line-height: 36px;
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+}
+.product-detail__color-picker-container{
+    padding:20px 0px 20px 175px;
+}
+.product-detail__color-picker{
+    background-color: #293550;
+    padding:0px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border:none;
+}
+.product-detail__color-picker:active{
+    border: 2px solid #90959D;
+}
+.product-detail__color-picker:nth-child(2){
+    background-color:#FFFFFF;
+    margin-left:8px;
+}
+.product-detail__color-picker:nth-child(3){
+    background-color:#F34B41;
+    margin-left:8px;
+}
+.product-detail__color-picker:nth-child(4){
+    background-color:#24E7EE;
+    margin-left:8px;
+}
